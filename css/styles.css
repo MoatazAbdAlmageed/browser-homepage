@@ -1,0 +1,12 @@
+body {
+  background-color: #282c34;
+  color: #fff;
+}
+a {
+  color: cyan;
+}
+
+.list {
+  padding: 20px;
+  border: 1px solid red;
+}
