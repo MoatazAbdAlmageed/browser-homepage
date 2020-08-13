@@ -123,7 +123,7 @@ function mode(numbers) {
 function range(numbers) {
   numbers.sort();
   return [numbers[0], numbers[numbers.length - 1]];
-
+}
 const nums = [5, 8, 15, 7, 10, 22, 3, 1, 15, 10];
 console.log(nums);
 console.log(mean(nums));
