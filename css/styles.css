@@ -10,3 +10,7 @@ a {
   padding: 20px;
   border: 1px solid cyan;
 }
+
+.done {
+  text-decoration: line-through;
+}

@@ -2,7 +2,7 @@ const $container = document.querySelector(".container");
 
 const scholarships = [
   {
-    title: "FWD Web",
+    title: "FWD Web nd001-mena-nfp2 (Done)",
     link: "https://classroom.udacity.com/nanodegrees/nd001-mena-nfp2",
   },
   {
@@ -19,7 +19,11 @@ const scholarships = [
   {
     title: "FWD Data",
     link: "https://classroom.udacity.com/nanodegrees/nd002-mena-nfp1",
-    notes: ["Data Types (Quantitative vs. Categorical)  "],
+    notes: [
+      "Data Types (Quantitative vs. Categorical)  ",
+      "mean median mode",
+      "https://ar.wikipedia.org/wiki/%D8%A5%D8%AD%D8%B5%D8%A7%D8%A1",
+    ],
   },
   {
     title: "Mobile Web Specialist Pluralsight",
@@ -68,6 +72,7 @@ function generateList(title = "list", items) {
     // string
     if (typeof item == "string") {
       li.innerText = item;
+      item.includes("Done") && li.classList.add("done");
       ol.append(li);
       div.append(h1);
       div.append(ol);
@@ -81,6 +86,7 @@ function generateList(title = "list", items) {
     if (link) {
       a.setAttribute("href", link);
       a.setAttribute("target", "_blank");
+      title.includes("Done") && a.classList.add("done");
     }
     a.innerText = title;
     li.append(a);
