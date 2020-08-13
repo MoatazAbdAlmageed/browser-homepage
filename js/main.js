@@ -1,8 +1,5 @@
 const $container = document.querySelector(".container");
-const $scholarships = document.getElementById("scholarships");
-const $wuilt = document.getElementById("wuilt");
-const $words = document.getElementById("words");
-const $todos = document.getElementById("todos");
+
 const scholarships = [
   {
     title: "FWD Web",
@@ -10,7 +7,7 @@ const scholarships = [
   },
   {
     title: "FWD Marketing",
-    link: "https://classroom.udacity.com/me",
+    link: "https://classroom.udacity.com/nanodegrees/nd018-mena-nfp1",
     notes: [
       "https://academy.hubspot.com/",
       "plan , create ,distribute , anazize , repeat",
@@ -21,7 +18,8 @@ const scholarships = [
   },
   {
     title: "FWD Data",
-    link: "https://classroom.udacity.com/me",
+    link: "https://classroom.udacity.com/nanodegrees/nd002-mena-nfp1",
+    notes: ["Data Types (Quantitative vs. Categorical)  "],
   },
   {
     title: "Mobile Web Specialist Pluralsight",
@@ -48,8 +46,12 @@ const wuilt = [
   },
 ];
 
-const words = ["persona", "barriers", "Rubric"];
-const todos = ["design patterns", "clean code", "EgyptJS"];
+const words = ["persona", "barriers", "Rubric", "breeds"];
+const todos = [
+  "design patterns",
+  "clean code",
+  "EgyptJS https://www.facebook.com/EgyptJS/videos/3303243726402397/UzpfSTEwMDAwMDU3MTM0NzQyNjpWSzozNDAyODIzODkzMDkwNjI4/?multi_permalinks=3402823893090628&notif_id=1597255265005099&notif_t=group_activity",
+];
 function generateList(title = "list", items) {
   const div = document.createElement("div");
   div.classList.add("list");
