@@ -57,11 +57,7 @@ const scholarships = [
 ];
 
 const words = ["persona", "barriers", "Rubric", "breeds"];
-const todos = [
-  "design patterns",
-  "clean code",
-  "EgyptJS https://www.facebook.com/EgyptJS/videos/3303243726402397/UzpfSTEwMDAwMDU3MTM0NzQyNjpWSzozNDAyODIzODkzMDkwNjI4/?multi_permalinks=3402823893090628&notif_id=1597255265005099&notif_t=group_activity",
-];
+const todos = ["design patterns", "clean code", "EgyptJS"];
 function generateList(title = "list", items) {
   const div = document.createElement("div");
   div.classList.add("list");

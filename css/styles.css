@@ -5,12 +5,19 @@ body {
 a {
   color: cyan;
 }
-
+.container {
+  display: table; /* Make the container element behave like a table */
+  width: 100%; /* Set full-width to expand the whole page */
+}
+h1 {
+  text-align: center;
+}
 .list {
-  padding: 20px;
+  /* padding: 20px;
   border: 1px solid cyan;
   width: 47%;
-  float: left;
+  float: left; */
+  display: table-cell;
 }
 
 .list:hover {
