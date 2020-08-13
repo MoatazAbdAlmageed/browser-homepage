@@ -9,6 +9,12 @@ a {
 .list {
   padding: 20px;
   border: 1px solid cyan;
+  width: 47%;
+  float: left;
+}
+
+.list:hover {
+  background: darkcyan;
 }
 
 .done {

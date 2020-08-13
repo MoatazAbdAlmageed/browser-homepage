@@ -1,5 +1,29 @@
 const $container = document.querySelector(".container");
 
+const wuilt = [
+  {
+    title: "Store",
+    link: "https://github.com/wuilt/wuilt-services",
+    notes: ["orders services"],
+  },
+  {
+    title: "zoho",
+    link: "https://desk.zoho.com/support/wuilt/ShowHomePage.do#Cases",
+  },
+  {
+    title: "github",
+    link: "https://github.com/wuilt",
+  },
+  {
+    title: "slack",
+    link: "https://app.slack.com/client/T5MBA3HUM/C5M8H2Z2N",
+  },
+  {
+    title: "backoffice",
+    link: "https://backoffice.wuilt.ws/clients/page/1",
+  },
+];
+
 const scholarships = [
   {
     title: "FWD Web nd001-mena-nfp2 (Done)",
@@ -29,24 +53,6 @@ const scholarships = [
     title: "Mobile Web Specialist Pluralsight",
     link:
       "https://app.pluralsight.com/channels/details/723b7f1d-0937-43fd-bddf-8d0e6c93900f",
-  },
-];
-const wuilt = [
-  {
-    title: "zoho",
-    link: "https://desk.zoho.com/support/wuilt/ShowHomePage.do#Cases",
-  },
-  {
-    title: "github",
-    link: "https://github.com/wuilt",
-  },
-  {
-    title: "slack",
-    link: "https://app.slack.com/client/T5MBA3HUM/C5M8H2Z2N",
-  },
-  {
-    title: "backoffice",
-    link: "https://backoffice.wuilt.ws/clients/page/1",
   },
 ];
 
