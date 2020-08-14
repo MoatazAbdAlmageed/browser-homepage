@@ -1,0 +1,31 @@
+Laravel
+	Route
+		HTTP
+			GET()
+			POST()
+			PUT()
+			PATH()
+			DELETE()
+			MATCH()
+			ANY()
+		redirect() (302)
+		permanentRedirect() (301)	
+		view()
+		parameters && (?optional)
+		if ($request->route()->named('profile')) 
+		Groups
+		Middleware
+		Namespaces
+		Subdomain Routing
+		Prefixes
+		Model Binding
+		fallback
+		Rate Limiting
+		Form Method Spoofing
+		current
+		currentRouteName
+		currentRouteAction
+		(CORS)
+
+	Forms
+		CSRF Protection
